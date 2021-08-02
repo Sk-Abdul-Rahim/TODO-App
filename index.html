@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div id=todoHeading>
+                <p>To Do List</p>
+            </div>
+
+            <div id="new_task">
+                <input type="text" id="txt-inp" placeholder="Add your task here">
+                <button onclick="addValue()"> Add </button>
+                <button onclick="delAll()"> Delete All </button>
+            </div>
+            <div class="div-task-list">
+                <ul id="task-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
